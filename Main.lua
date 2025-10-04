@@ -414,3 +414,4 @@ if Value then
        	 -- The variable (Value) is a boolean on whether the toggle is true or false
     	end
 }, "Toggle") -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+Luna:LoadAutoloadConfig()
