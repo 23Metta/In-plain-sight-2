@@ -26,7 +26,7 @@ local Window = Luna:CreateWindow({
 		}
 	}
 })
-
+Luna:LoadAutoloadConfig()
 --TAB
 local PlayerTab = Window:CreateTab({
 	Name = "Player",
@@ -399,5 +399,3 @@ local Toggle3 = EspTab:CreateToggle({
 	end,
 	Flag = "CameraAlertToggle"
 })
-
-Luna:LoadAutoloadConfig()
