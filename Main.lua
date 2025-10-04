@@ -3,7 +3,7 @@ local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-S
 local Window = Luna:CreateWindow({
 	Name = "In plain sight 2",
 	Subtitle = nil,
-	LogoID = "86487700",
+	LogoID = "18552636285",
 	LoadingEnabled = true,
 	LoadingTitle = "Meta Hub",
 	LoadingSubtitle = "by Metta",
@@ -30,15 +30,15 @@ Luna:LoadAutoloadConfig()
 --TAB
 local PlayerTab = Window:CreateTab({
 	Name = "Player",
-	Icon = "view_in_ar",
-	ImageSource = "Material",
+	Icon = "accessibility",
+	ImageSource = "Lucide",
 	ShowTitle = true
 })
 
 local EspTab = Window:CreateTab({
 	Name = "Esp",
-	Icon = "view_in_ar",
-	ImageSource = "Material",
+	Icon = "cctv",
+	ImageSource = "Lucide",
 	ShowTitle = true
 })
 
